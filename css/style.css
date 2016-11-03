@@ -109,7 +109,16 @@
       cursor: pointer;
     }
 
-    @media only screen and (min-width: 768px) {
+    .footer{
+      text-align: center;
+      position: fixed;
+      left: auto;
+      height: 45px;
+      bottom: 0px;
+      margin: 0px;
+    }
+
+    @media only screen and (max-width: 768px) {
       /*.sticky_footer{
         position:inherit;
         width:20%;
@@ -118,12 +127,9 @@
         left:0px;
         background-color:rgba(127, 127, 127, 0.5);
       }*/
-      #footer{
-        text-align: center;
-        position: fixed;
-        left: auto;
-        height: 45px;
-        bottom: 0px;
-        margin: 0px;
+
+      .hide-on-mobile{
+        visibility: hidden;
       }
+
     }
