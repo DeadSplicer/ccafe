@@ -118,7 +118,7 @@
       margin: 0px;
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 800px) {
       /*.sticky_footer{
         position:inherit;
         width:20%;
