@@ -1,0 +1,129 @@
+
+  div{
+    margin-bottom: 0px;
+  }
+
+  body{
+    background-color: #2F2F2F;
+  }
+
+  .jumbotron{
+
+  }
+
+  .header{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 23px;
+    margin: 30px;
+  }
+  h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 56px;
+    color: white;
+  }
+  h2{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    color: gray;
+    font-style: italic;
+  }
+  h3{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+  h4{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    /*color: lightgray;*/
+    color: rgba(75,75,75,1)
+  }
+/*food names*/
+  h5{
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 17px;
+    color: white;
+  }
+  .description{
+    text-align: left;
+    font-size: 15px;
+    color: gray;
+  }
+  p{
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    margin: auto;
+    font-size: 40px;
+  }
+
+    .box-one{
+      border-style: solid;
+      opacity: 40%;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-left-color: transparent;
+      border-bottom-color: gray;
+      padding-bottom: 0px;
+    }
+    .box-two{
+      border-style: hidden;
+      padding-top: 0px;
+    }
+    .box-three{
+      border-style: hidden;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+
+    .button{
+      background-color: #000000;
+      border: none;
+      color: white;
+      padding: 7px 28px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .button:hover{
+      background-color: #DF8D00;
+      color: black;
+    }
+    .button2{
+      background-color: #666666;
+      border: none;
+      color: white;
+      padding: 7px 28px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    @media only screen and (min-width: 768px) {
+      /*.sticky_footer{
+        position:inherit;
+        width:20%;
+        height:30px;
+        bottom:0px;
+        left:0px;
+        background-color:rgba(127, 127, 127, 0.5);
+      }*/
+      #footer{
+        text-align: center;
+        position: fixed;
+        left: auto;
+        height: 45px;
+        bottom: 0px;
+        margin: 0px;
+      }
+    }
