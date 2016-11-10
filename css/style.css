@@ -119,15 +119,6 @@
     }
 
     @media only screen and (max-width: 800px) {
-      /*.sticky_footer{
-        position:inherit;
-        width:20%;
-        height:30px;
-        bottom:0px;
-        left:0px;
-        background-color:rgba(127, 127, 127, 0.5);
-      }*/
-
       .hide-on-mobile{
         visibility: hidden;
       }
